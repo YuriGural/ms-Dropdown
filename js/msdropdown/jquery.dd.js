@@ -474,7 +474,7 @@ function dd(element, settings) {
 					$("#" + childid).css({display:'none'});
 				};
 			};
-			iHeight = ((settings.rowHeight + margin) * Math.min(settings.visibleRows,totalOptions)) + 3;
+			iHeight = ((settings.rowHeight + margin) * Math.min(settings.visibleRows,totalOptions)) + 6;
 		} else if (isList) {
 			iHeight = $("#" + element).height(); //get height from original element
 		};		
